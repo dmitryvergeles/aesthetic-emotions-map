@@ -29,24 +29,24 @@
   - **Pure Calm:** Relaxation as the sole signal, with no other emotions elevated. All activating, cognitive, and affective responses are suppressed. Restful and undisturbed, without aesthetic warmth or color.
   - **Serene Beauty:** Relaxation combined with awe, beauty, enchantment, being moved, and nostalgia. Calming yet emotionally resonant — quietly beautiful and gently moving without being activating.
 - **Label Distribution:** Images are split into training (70%), validation (15%), and test (15%) sets with the following distribution:
-  | Label | train | validation | test |
-  |-----------------------|-------------|-------------|-------------|
-  | Sublime Activation | 896 (19.0%) | 192 (18.8%) | 208 (19.1%) |
-  | Intellectual Unease | 1088 (23%) | 240 (23.4) | 240 (22.0%) |
-  | Energetic Playfulness | 256 (5.4%) | 48 (4.7%) | 64 (5.9%) |
-  | Lighthearted Humor | 624 (13.2%) | 144 (14.0%) | 144 (13.2%) |
-  | Aesthetic Emptiness | 368 (7.8%) | 80 (7.8%) | 80 (7.4%) |
-  | Melancholic | 400 (8.5%) | 96 (9.4%) | 96 (8.8%) |
-  | Pure Calm | 528 (11.2%) | 112 (10.9%) | 128 (11.8%) |
-  | Serene Beauty | 560 (11.9%) | 112 (10.9%) | 128 (11.8%) |
-  |-----------------------|-------------|-------------|-------------|
-  | | 4720 | 1024 | 1088 |
+
+| Label                 | train       | validation  | test        |
+| --------------------- | ----------- | ----------- | ----------- |
+| Sublime Activation    | 896 (19.0%) | 192 (18.8%) | 208 (19.1%) |
+| Intellectual Unease   | 1088 (23%)  | 240 (23.4)  | 240 (22.0%) |
+| Energetic Playfulness | 256 (5.4%)  | 48 (4.7%)   | 64 (5.9%)   |
+| Lighthearted Humor    | 624 (13.2%) | 144 (14.0%) | 144 (13.2%) |
+| Aesthetic Emptiness   | 368 (7.8%)  | 80 (7.8%)   | 80 (7.4%)   |
+| Melancholic           | 400 (8.5%)  | 96 (9.4%)   | 96 (8.8%)   |
+| Pure Calm             | 528 (11.2%) | 112 (10.9%) | 128 (11.8%) |
+| Serene Beauty         | 560 (11.9%) | 112 (10.9%) | 128 (11.8%) |
+|                       | 4720        | 1024        | 1088        |
 
 ### Feature Description
 
 The features in the dataset are the pixel values of the images, which are represented as 3 color channels (RGB) with 50.176 pixels per image (224x224 pixels) and intensity values between 0 and 255. Image dimensions were chosen to conform to the ImageNet standard, which is commonly used in computer vision tasks. The mean and standard deviation of the pixel values across the dataset are as follows:
 
-mean: [0.5111283659934998, 0.48830345273017883, 0.46479079127311707],
+mean: [0.5111283659934998, 0.48830345273017883, 0.46479079127311707],\
 std: [0.3433663249015808, 0.3207928538322449, 0.32255250215530396]
 
 ## Exploratory Data Analysis
