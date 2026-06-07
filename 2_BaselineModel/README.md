@@ -5,12 +5,15 @@
 ## Baseline Model Results
 
 ### Model Selection
-- **Baseline Model Type:** [e.g., Random Forest, Logistic Regression, Linear Regression, Naive Bayes, etc.]
-- **Rationale:** [Brief explanation of why this model was chosen as baseline]
+- **Baseline Model Type:** Convolutional neural network
+- 
+- **Rationale:** as we work with pictures CNN should be fine
 
 ### Model Performance
 - **Evaluation Metric:** [e.g., Accuracy, F1-Score, Precision, Recall, MSE, MAE, R², etc.]
 - **Performance Score:** [e.g., 85% accuracy, F1-score of 0.78, MSE of 0.15]
+training set 99
+test set 35,8
 - **Cross-Validation Score:** [Mean and standard deviation of CV scores, e.g., 0.82 ± 0.03]
 
 ### Evaluation Methodology
